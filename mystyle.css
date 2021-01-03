@@ -15,3 +15,68 @@ p {
   #firstname {
     background-color: rgb(0, 238, 255);
   }
+
+
+  
+body {
+	background-color: rgb(36, 136, 218);
+	font-family: 'Nunito', sans-serif;
+	font-size: 12pt;
+	font-weight: 400;
+	color: #333;  /* text color - shorthand for #333333 */
+	width: 100vw;
+	height: 100vh;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;  /* prevents unnecessary horizontal scrollbar */
+}
+
+header {
+	background-color: #f6f7ee;
+	height: 150px;
+}
+
+main {
+	width: 100vw;
+	padding: 0px 0px 30px; /* whitespace at bottom */
+}
+
+article {
+	position: relative;
+	width: 100%;  
+	margin: 5px;
+	padding: 10px 100px; 
+	box-sizing: border-box;
+}
+
+h1 { 
+	font-size: 3.5rem;
+	font-weight: 700;
+}
+
+h2 { 
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 2rem;
+	font-weight: 700;
+	margin: 5px;
+}
+
+
+p {
+	text-align: justify;
+	margin: .5rem 0px; 
+
+img {
+	width: 200px;
+	margin: 10px 0px;
+}
+
+hr { 
+	height: .4rem;
+	border: none;
+	margin: 20px 0px 0px;
+}

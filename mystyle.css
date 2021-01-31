@@ -31,14 +31,14 @@ body {
 	overflow-x: hidden;  /* prevents unnecessary horizontal scrollbar */
 }
 
-header {
+.header {
 	background-color: #f6f7ee;
 	height: 150px;
 }
 
 main {
 	width: 100vw;
-	padding: 0px 0px 30px; /* whitespace at bottom */
+	padding: 0px 0px 30px; 
 }
 
 article {
@@ -67,7 +67,7 @@ h3 {
 
 
 p {
-	p {
+	.p {
     background-color: yellow;
   }
 

@@ -31,7 +31,7 @@ body {
 	overflow-x: hidden;  /* prevents unnecessary horizontal scrollbar */
 }
 
-.header {
+header {
 	background-color: #f6f7ee;
 	height: 150px;
 }
@@ -67,8 +67,8 @@ h3 {
 
 
 p {
-	.p {
-    background-color: yellow;
+	p {
+	background-color: green;
   }
 
 img {
@@ -82,3 +82,10 @@ hr {
 	margin: 20px 0px 0px;
 }
 
+footer {
+	h3 {
+		font-size: 2rem;
+		font-weight: 700;
+		margin: 5px;
+	}
+}
